@@ -143,21 +143,21 @@ body {
     line-height: 130%;
 }
 
-.header__right-box{
+.header__right-box {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 60px;
 }
 
-.header__right-minibox{
+.header__right-minibox {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 25px;
 }
 
-.header__right-title{
+.header__right-title {
     color: rgb(255, 255, 255);
     font-family: Garamond;
     font-size: 24px;
@@ -165,17 +165,91 @@ body {
     line-height: 120%;
 }
 
-.header__right-list{
+.header__right-list {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 15px;
 }
 
-.header__right-item{
+.header__right-item {
     color: rgb(255, 255, 255);
     font-family: Garamond;
     font-size: 18px;
     font-weight: 400;
     line-height: 130%;
 }
+
+.hero {
+    margin-top: 120px;
+    margin-bottom: 168px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero__top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hero__img {
+    width: 80px;
+    height: 64px;
+}
+
+.hero__top-text {
+    color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+}
+
+.hero__middlle-list {
+    width: 1296px;
+    height: 832px;
+    margin: 115px 0 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 44px;
+}
+
+.hero__middle-item {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.hero__middle-img {
+    width: 396px;
+    height: 300px;
+}
+
+.hero__middle-text {
+    color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.hero__bottom-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero__bottom-item {
+    width: 306px;
+    height: 144px;
+}
+
+/* .hero__bottom-img {} */
