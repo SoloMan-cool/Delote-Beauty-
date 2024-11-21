@@ -382,3 +382,42 @@ body {
     border-bottom: 1px solid rgb(205, 170, 125);
     color: rgb(205, 170, 125);
 }
+
+.portfolio {
+    margin-top: 100px;
+}
+
+.portfolio__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio__line {
+    border: none;
+    background-color: white;
+    width: 1296px;
+    height: 2px;
+    opacity: 0.5;
+}
+
+.portfolio__text {
+    color: rgb(255, 255, 255);
+    font-family: Garamond;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.portfolio__box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* .portfolio__silka {} */
+
+.portfolio__img {
+    width: 50px;
+    height: 50px;
+}
